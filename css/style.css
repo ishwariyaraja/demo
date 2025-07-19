@@ -3,34 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
- header{
-   background-color:#00000000 transparent;
-   position: fixed;
-   text-align: right;
-   width: 100%;
-   top:16px;
-   padding: 0px 24px;
- }  
- body{
-    background-color:#1b1b1b ;
-    box-sizing:border-box;
- }
- header .logo{
-    display: inline-block;
-    height: inherit;
-    left: 1.5em;
-    line-height: inherit;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0
- }
- .logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size:20px;
-    font-weight: 600;
- }
- a[href="#"]::before{
-    content: "^";
- }
